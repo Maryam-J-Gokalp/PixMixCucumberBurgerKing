@@ -15,4 +15,11 @@ public class BurgerKingHomePage {
     @FindBy(xpath = "//button[@data-testid='desktop-signup-link']")
     public WebElement signUpButton;
 
+    @FindBy(xpath = "//div[@id='aboutMenuEntries']//li")
+    public WebElement moreLinkIncludes;
+
+    @FindBy(xpath = "//div[@class='sc-bdvvtL iRAiCY']/button")
+    public WebElement moreLinkButton;
+
+
 }

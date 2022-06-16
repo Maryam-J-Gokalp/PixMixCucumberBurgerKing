@@ -40,6 +40,14 @@ public class Driver {
     }
 
 
+    public static void stopSession(){
+        if(driver!=null){
+            driver.quit();
+            driver=null;
+        }
+    }
+
+
 
 
 

@@ -5,7 +5,7 @@ Feature: Sign Up functionality
   Background: User on the page
     Given User on the page
     And User see the signUp button properly
-  @wip
+  #@wip
   Scenario: User can signing up on the page
     When User can click the signup button
     Given User see the SignUp page properly
