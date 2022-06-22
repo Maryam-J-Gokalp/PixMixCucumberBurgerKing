@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {
-                "html:target/cucumber-reports/cucumber.html",
-                "json:target/cucumber-reports/cucumber.json",
-                "rerun:target/cucumber-reports/rerun.txt"
+                "html:target/cucumber.html",
+                "json:target/cucumber.json",
+                "rerun:target/rerun.txt"
         },
         features = "src/test/resources/features",
         glue = "com/BurgerKING/stepDefinitions",
