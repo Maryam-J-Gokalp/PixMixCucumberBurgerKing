@@ -25,3 +25,4 @@ Feature: User checks the homepage links
       | Attributions                 |
       | Royal Perks                  |
       | Royal Perks Terms of Service |
+
