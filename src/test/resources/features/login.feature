@@ -12,7 +12,5 @@ Feature: Sign Up functionality
     And User make sure on the correct tab
     And User can enter the "Yasin"
     And User can enter "yasin.deger48@gmail.com"
-    And User accept the policy of the site
-    Then User can click the create an Account button
 
 

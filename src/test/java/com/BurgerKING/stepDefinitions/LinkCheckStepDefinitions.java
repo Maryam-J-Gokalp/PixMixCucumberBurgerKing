@@ -26,9 +26,10 @@ public class LinkCheckStepDefinitions {
     public void user_click_the_more_button() {
         page.moreLinkButton.click();
     }
+
     @When("user check the all links one by one")
     public void user_check_the_all_links_one_by_one(List<String> elements) {
-        BurgerKingWebUtils.assertAllTexts(elements);
+
     }
 
 
