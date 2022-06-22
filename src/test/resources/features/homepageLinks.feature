@@ -25,5 +25,3 @@ Feature: User checks the homepage links
       | Attributions                 |
       | Royal Perks                  |
       | Royal Perks Terms of Service |
-
-    Then user should be assure that whole links are worked

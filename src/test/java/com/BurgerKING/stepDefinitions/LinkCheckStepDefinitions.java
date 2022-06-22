@@ -31,11 +31,6 @@ public class LinkCheckStepDefinitions {
         BurgerKingWebUtils.assertAllTexts(elements);
     }
 
-    @Then("user should be assure that whole links are worked")
-    public void user_should_be_assure_that_whole_links_are_worked() {
-
-
-    }
 
 
 }

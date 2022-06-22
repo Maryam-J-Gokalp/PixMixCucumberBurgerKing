@@ -26,12 +26,7 @@ public class BurgerKingWebUtils {
      */
     public static void assertAllTexts(List<String> elements){
 
-        List<WebElement> allElements = Driver.getDriver().findElements(By.xpath("//div[@id='aboutMenuEntries']//li"));
 
-        for (int i = 0; i < allElements.size(); i++) {
-
-            Assert.assertTrue(allElements.get(i).getText().equals(elements.get(i)));
-        }
     }
 
 
