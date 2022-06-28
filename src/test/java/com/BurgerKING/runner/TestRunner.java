@@ -15,7 +15,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/BurgerKING/stepDefinitions",
         dryRun = true,
-        tags = ""
+        tags = "",
+        publish = true
 
 )
 
